@@ -1,0 +1,22 @@
+title: Kevin Taehyun Kim
+description: Engineering · Investment · Strategy
+url: "https://kevintaehyunkim.github.io"
+baseurl: ""
+markdown: kramdown
+collections:
+  entries:
+    output: true
+    permalink: /:collection/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: entries
+    values:
+      layout: entry
+exclude:
+  - README.md
+  - _templates
